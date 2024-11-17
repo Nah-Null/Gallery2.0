@@ -1,0 +1,110 @@
+/* Basic Layout */
+body {
+    background-image: url('88.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200vh;
+    padding-top: 60px;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* เลือกสีพื้นหลังโปร่งใส */
+    padding: 3rem;
+    border-radius: 15px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1); /* เพิ่มเงาเพื่อให้ดูมีมิติ */
+    max-width: 900px; /* ขยายความกว้างของ container */
+    width: 100%;
+}
+
+h1, h2, p {
+    color: #333;
+}
+
+/* Navbar styling */
+.navbar {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    margin-bottom: 2rem;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.nav-link {
+    color: #f8f9fa !important;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #007bff !important;
+}
+
+/* Section styling */
+section {
+    margin-top: 2rem;
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* เพิ่มโปร่งใสให้กับพื้นหลัง */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* เงาเล็กน้อย */
+}
+
+section h2 {
+    border-bottom: 3px solid #007bff;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    color: #007bff;
+}
+
+section p, ul, ol {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Image styling */
+#about img {
+    border: 4px solid #007bff;
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease;
+}
+
+#about img:hover {
+    transform: scale(1.1); /* ขยายรูปเมื่อเอาเมาส์ไปที่รูป */
+}
+
+/* List styling */
+ul, ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+ol li, ul li {
+    padding: 0.5rem 0;
+}
+
+#contact ol li {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    h1 {
+        font-size: 1.
+    }
+}
